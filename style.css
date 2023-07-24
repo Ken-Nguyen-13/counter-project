@@ -1,18 +1,29 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 50px;
     background-color: rgb(178, 178, 178);
 }
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     border-radius: 15px;
     background-color: rgb(229, 229, 229);
     padding: 5px 15px 5px 15px;
 }
 button {
+    font-size: large;
+    margin: 5px;
     border-radius: 5px;
     background-color: rgb(197, 197, 197)
+}
+#counter-title {
+    font-family: Helvetica;
+    margin: 0;
+}
+#counter {
+    font-size: xx-large;
+    font-family:'Lucida Sans';
 }
